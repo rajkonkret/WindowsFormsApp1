@@ -69,7 +69,7 @@ namespace WindowsFormsApp1
 
         private void ListView1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-
+             
         }
     }
 }
