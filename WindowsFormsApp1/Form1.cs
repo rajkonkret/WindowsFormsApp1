@@ -66,5 +66,10 @@ namespace WindowsFormsApp1
         {
             tekst.Text = listView1.SelectedItems[0].Text;
         }
+
+        private void ListView1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

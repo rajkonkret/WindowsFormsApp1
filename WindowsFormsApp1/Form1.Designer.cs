@@ -154,7 +154,9 @@
             // 
             // listView1
             // 
+            this.listView1.AutoArrange = false;
             this.listView1.HideSelection = false;
+            this.listView1.LabelWrap = false;
             this.listView1.Location = new System.Drawing.Point(581, 276);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
@@ -162,6 +164,7 @@
             this.listView1.TabIndex = 11;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.List;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.ListView1_SelectedIndexChanged_1);
             this.listView1.Click += new System.EventHandler(this.ListView1_Click);
             // 
             // Form1
