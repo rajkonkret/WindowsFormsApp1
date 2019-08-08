@@ -43,18 +43,28 @@ namespace WindowsFormsApp1
 			tekst.Text = "";
             tekst.Text = (sender as Button).Name.ToString();
             l.Add(tekst.Text);
-            MessageBox.show = (l);
+            
                
 		}
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            ListViewItem lv1 = new ListViewItem("a                             ", 0);
+            listView1.Items.Add(lv1);
+            ListViewItem lv2 = new ListViewItem("aA                            ", 0);
+            listView1.Items.Add(lv2);
+            ListViewItem lv3 = new ListViewItem("aAa                           ", 0);
+            listView1.Items.Add(lv3);
         }
 
         private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void ListView1_Click(object sender, EventArgs e)
+        {
+            tekst.Text = listView1.SelectedItems[0].Text;
         }
     }
 }
