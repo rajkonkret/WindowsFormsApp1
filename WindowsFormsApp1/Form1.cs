@@ -49,12 +49,15 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            string a = "";
             ListViewItem lv1 = new ListViewItem("a                                   ", 0);
             listView1.Items.Add(lv1);
             ListViewItem lv2 = new ListViewItem("aA                                  ", 0);
             listView1.Items.Add(lv2);
             ListViewItem lv3 = new ListViewItem("aAa                                 ", 0);
             listView1.Items.Add(lv3);
+            a = "Radek mistrz Janiak";
+            listView1.Items.Add(a);
         }
 
         private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
