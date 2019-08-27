@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             
-            tekst.Text = "TEST";
+            tekst.Text = "TEST 222";
         }
 
         private void Label1_Click(object sender, EventArgs e)
